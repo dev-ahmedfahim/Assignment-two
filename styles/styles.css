@@ -216,3 +216,170 @@ nav ul {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
+/* Stories section started */
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.our_stories {
+  padding-bottom: 60px;
+  background: linear-gradient(
+      0deg,
+      rgba(254, 163, 1, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../assets/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.our_story {
+  margin-bottom: 80px;
+  display: flex;
+}
+
+.our_stories h5 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.story_card0 {
+  display: block;
+  width: 540px;
+  height: 630px;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.story_content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.story_content h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.story_card0 img {
+  border-radius: 16px 16px 0 0;
+}
+
+.story_cards {
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.story_card {
+  border-radius: 16px;
+  background-color: white;
+}
+
+.story_card img {
+  border-radius: 16px 16px 0 0;
+  width: 100%;
+}
+
+.story_title {
+  font-size: 1rem;
+  padding: 0 20px;
+}
+
+.card_btn {
+  width: 174px;
+  height: 47px;
+  background-color: #95b226;
+  border-radius: 47px;
+  border: none;
+  color: white;
+  margin-left: 38px;
+}
+
+.btn_position {
+  margin-top: -30px;
+}
+
+#blue_gg {
+  background-color: #05d4df;
+}
+
+.story_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Footer section started */
+.footer {
+  background-color: #01acfd;
+}
+
+.footer_section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: auto;
+  justify-items: center;
+}
+
+.footer_logo h3 {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}
+
+.footer_logo img {
+  min-width: 82px;
+}
+
+.info p {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.about_school {
+  color: white;
+}
+
+.about_school h3 {
+  font-size: 24px;
+  text-align: left;
+}
+.about_school ul {
+  list-style: none;
+}
+
+.about_school li {
+  font-size: 20px;
+}
+
+.about_text {
+  margin-bottom: 15px;
+  text-align: left;
+  margin-left: -40px;
+}
+
+.keep {
+  color: white;
+}
+
+.foot_img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 30px;
+}
