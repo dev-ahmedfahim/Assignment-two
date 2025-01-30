@@ -15,8 +15,17 @@ body {
   padding: 10px 60px;
   border-radius: 12px;
   border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
+}
+
+.btn_secondary {
+  min-width: 197px;
+  min-height: 50px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background: black;
+  color: white;
+  border-radius: 12px;
+  border: none;
 }
 
 /* nav section started */
@@ -68,4 +77,142 @@ nav ul {
 
 .ham-menu {
   display: none;
+}
+
+/* Hero section started */
+.hero {
+  height: 576px;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+
+.hero-text {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  margin-right: 50px;
+}
+
+.hero_title {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+#empower {
+  color: orange;
+}
+#vision {
+  color: skyblue;
+}
+
+.hero_description {
+  font-size: 1.2rem;
+}
+
+/* Standard curriculum section started */
+
+.curriculum {
+  padding-top: 60px;
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+  max-width: 1160px;
+  margin: 0 auto;
+  /* padding: 0; */
+}
+
+.curr_title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.curr_cards {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-bottom: 80px;
+}
+
+.curr_card {
+  border: 2px solid seagreen;
+  width: 367px;
+  height: 476px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 18px;
+}
+
+.card_title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card_des {
+  padding: 0 40px;
+  font-size: 1rem;
+}
+
+.read_more {
+  padding: 0 40px;
+  font-size: 1rem;
+  font-weight: Bold;
+}
+
+#blue-1 {
+  color: skyblue;
+}
+#yellow-2 {
+  color: orange;
+}
+#purple-3 {
+  color: purple;
+}
+
+#blue {
+  background: linear-gradient(180deg, #def5ff, #ffffff 40%);
+  border: 1px solid #def5ff;
+}
+
+#yellow {
+  background: linear-gradient(180deg, #fff4dc, #ffffff 40%);
+  border: 1px solid #fff4dc;
+}
+
+#purple {
+  background: linear-gradient(180deg, #f2e8ff, #ffffff 40%);
+  border: 1px solid #f2e8ff;
+}
+
+.scroll-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.circle-button {
+  width: 60px;
+  height: 60px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
