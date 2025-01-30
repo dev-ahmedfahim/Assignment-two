@@ -29,6 +29,15 @@ body {
 }
 
 /* nav section started */
+
+.marquee{
+    background-color: orange;
+    max-height: 50px;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    align-content: center;
+}
 .nav {
   justify-content: space-between;
   align-items: center;
